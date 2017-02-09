@@ -107,10 +107,10 @@ public class IRMain
             //Reading query input
 
             // Declaring files by hardcoding the file paths
-            docTable = new File("//home/sudeep/IdeaProjects/InformationRetrieval/InformationRetrievalSystem/docsTable.csv");
-            total = new File("/home/sudeep/IdeaProjects/InformationRetrieval/InformationRetrievalSystem/total.txt");
-            dictionaryFile= new File("/home/sudeep/IdeaProjects/InformationRetrieval/InformationRetrievalSystem/dictionary.csv");
-            postingList = new File("/home/sudeep/IdeaProjects/InformationRetrieval/InformationRetrievalSystem/postings.csv");
+            docTable = new File(" path of docsTable.csv");
+            total = new File("  path of total.txt");
+            dictionaryFile= new File(" path of dictionary.csv");
+            postingList = new File(" path of postings.csv");
 
             Scanner reader = new Scanner(System.in);  // Reading from System.in
             System.out.println("Enter the query :");
